@@ -6,7 +6,7 @@
   "private": false,
   "scripts": {
     "install": "node-gyp rebuild",
-    "prebuild:master": "prebuild-install",
+    "prebuild:master": "prebuild-install || node-gyp rebuild",
     "clean:lib": "rimraf lib/ && rimraf tsconfig-build.tsbuildinfo",
     "build": "npm run clean:lib && tsc -p tsconfig-build.json && node-gyp build",
     "rebuild": "node-gyp rebuild",
