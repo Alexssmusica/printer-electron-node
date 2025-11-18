@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/Alexssmusica/printer-electron-node/compare/v1.6.0...v1.6.1) (2025-11-18)
+
+
+### Bug Fixes
+
+* vulnerabilities ([5a88004](https://github.com/Alexssmusica/printer-electron-node/commit/5a880044ed6e1b615f991d6657637ba4bc95a73f))
+
 # [1.6.0](https://github.com/Alexssmusica/printer-electron-node/compare/v1.5.3...v1.6.0) (2025-02-24)
 
 
